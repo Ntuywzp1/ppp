@@ -2,7 +2,7 @@ from flask import Flask
 
 app = Flask(__name__)
 
-
+# olá rota
 @app.route('/ola')
 def ola_mundo():
     return "Olá,mundo"
